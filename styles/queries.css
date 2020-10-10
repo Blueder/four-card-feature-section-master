@@ -1,0 +1,52 @@
+/* ===============Port to Desktop=============== */
+@media (min-width: 800px) {
+    html, body {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    body > .sub-header, body > .header {
+        font-size: 2.5rem;
+    }
+
+    body > .description {
+        width: 30%;
+        font-size: 1.1rem;
+        margin: 0 auto;
+    }
+
+    .bottom-section {
+        display: flex;
+        flex-direction: row;
+    }    
+
+    .cards {
+        width: 23vw;
+        height: calc(25vw * 0.6);
+        justify-content: center;
+    }
+
+    .middle-cards {
+        width: 27vw;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .card-2 {
+        margin-top: 5vh;
+        margin-bottom: 0;
+    }
+    
+    .card-3 {
+        margin-top: 5vh;
+        margin-bottom: 0;
+    }
+
+    .card-1, .card-4{
+        align-self: center;
+        margin: 0 5vh;
+    }
+}
